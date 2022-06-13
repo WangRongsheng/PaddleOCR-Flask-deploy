@@ -133,3 +133,7 @@ files = {'file': open('./demo.jpg', 'rb')}
 r = requests.post(url, files=files)
 print(r.text)
 ```
+
+## TODO
+
+- [ ] 即将支持PaddleOCR多应用部署；
